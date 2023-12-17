@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: emergensy-ryousan-type-slim2-1
+    name: slim2-zw
     env: python
     region: Oregon
     plan: free
