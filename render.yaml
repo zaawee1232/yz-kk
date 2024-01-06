@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: slim2-yzkk
+    name: yz-ua
     env: python
     region: Oregon
     plan: free
