@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: investment-materials
+    name: zz-yk
     env: python
     region: Oregon
     plan: free
