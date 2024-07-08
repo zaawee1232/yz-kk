@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: school-website
+    name: za-yuk
     env: python
     region: Oregon
     plan: free
