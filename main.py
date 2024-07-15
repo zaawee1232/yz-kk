@@ -10,7 +10,7 @@ from cache import cache
 
 max_api_wait_time = 3
 max_time = 10
-apis = [r"https://inv.nadeko.net"]
+apis = [r"https://inv.in.projectsegfau.lt","https://invidious.flokinet.to","https://invidious.jing.roks"]
 url = requests.get(r'https://raw.githubusercontent.com/mochidukiyukimi/yuki-youtube-instance/main/instance.txt').text.rstrip()
 version = "1.0"
 
@@ -144,7 +144,6 @@ def get_level(word):
             if word in [i2.rstrip("\r\n") for i2 in f.readlines()]:
                 return i1
     return 0
-# yuki-2
 
 def check_cokie(cookie):
     print(cookie)
