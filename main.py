@@ -10,7 +10,7 @@ from cache import cache
 
 max_api_wait_time = 3
 max_time = 10
-apis = [r"https://inv.in.projectsegfau.lt","https://invidious.flokinet.to","https://invidious.jing.roks"]
+apis = [r"https://invidious.protokolla.fi",r"https://invidious.perennalte.ch",r"https://invidious.private.coffe",r"https://invidious.privacyrediect.com",r"https://iv.datura.network",r"https://invidious.fdn.fr"]
 url = requests.get(r'https://raw.githubusercontent.com/mochidukiyukimi/yuki-youtube-instance/main/instance.txt').text.rstrip()
 version = "1.0"
 
